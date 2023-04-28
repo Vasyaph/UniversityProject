@@ -34,7 +34,7 @@ public class MainApplication implements CommandLineRunner {
         String searchPattern = "Global search by \\b(\\w+\\s?)\\b";//5
 
 
-        System.out.println(lectorsRepo.findAll());//we can remove this. is output all entity in databases
+
         while (true) {
             System.out.println("input you`r question:");
             String userInput = myObj.nextLine();
